@@ -1,10 +1,10 @@
+import './directory.styles.scss';
+import CategoryItem from '../category-item/category-item.component';
+
 import * as _ from 'lodash';
 
-import './directory.styles.scss';
 
-import { CategoryItem } from '../category-item/category-item.component';
-
-export const Directory = ({ categories }) => {
+const Directory = ({ categories }) => {
   return (
     <div className="directory-container">
       
@@ -17,3 +17,5 @@ export const Directory = ({ categories }) => {
     </div>
   )
 }
+
+export default Directory;
